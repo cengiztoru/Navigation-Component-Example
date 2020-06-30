@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="8dp" />
+            <solid android:color="@color/btnBackground" />
+            <solid android:color="@color/btnBackgroundActive" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <corners android:radius="8dp" />
+            <solid android:color="@color/btnBackground" />
+        </shape>
+    </item>
+
+</selector>

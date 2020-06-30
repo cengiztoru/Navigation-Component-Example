@@ -49,27 +49,27 @@
         app:layout_constraintTop_toBottomOf="@+id/etName" />
 
     <Button
+        android:background="@drawable/btn_background"
+        android:textColor="@color/btnTextColor"
         android:id="@+id/btnLogin"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:text="Login"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <Button
+        android:background="@drawable/btn_background"
+        android:textColor="@color/btnTextColor"
         android:id="@+id/btnSignup"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Signup"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
