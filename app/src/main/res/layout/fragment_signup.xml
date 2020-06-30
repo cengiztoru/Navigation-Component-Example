@@ -64,7 +64,7 @@
     <Button
         android:background="@drawable/btn_background"
         android:textColor="@color/btnTextColor"
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
@@ -78,7 +78,7 @@
     <Button
         android:background="@drawable/btn_background"
         android:textColor="@color/btnTextColor"
-        android:id="@+id/btnSignup"
+        android:id="@+id/btnReturnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Already has account"
