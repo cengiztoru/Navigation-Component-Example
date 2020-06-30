@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.cengiztoru.samplenavigationexample.R
+import com.cengiztoru.samplenavigationexample.data.User
 import kotlin.random.Random
 
 class SplashFragment : Fragment() {
@@ -35,7 +36,11 @@ class SplashFragment : Fragment() {
                 navController.navigate(R.id.action_splashFragment_to_loginFragment)
             }
             true -> {
-                //todo
+                //PASS DATA WITHOUT SAFE ARGS, PASS DATA BY SIMPLE BUNDLE
+                val bundle = Bundle()
+                bundle.putParcelable("user", getUserData())
+                navController.navigate(R.id.action_splashFragment_to_homeFragment, bundle)
+
             }
         }
     }
@@ -45,5 +50,8 @@ class SplashFragment : Fragment() {
         //TODO YOU CAN CUSTOMIZE HERE FOR YOU
         return Random.nextInt() % 2 == 0
     }
+
+    //TODO YOU CAN CUSTOMIZE HERE FOR YOU
+    private fun getUserData(): User = User("cengiztoru@gmail.com", "Cengiz", "TORU")
 
 }

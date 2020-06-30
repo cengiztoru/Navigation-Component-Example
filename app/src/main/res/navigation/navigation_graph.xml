@@ -36,10 +36,17 @@
             app:destination="@id/homeFragment" />
     </fragment>
     <fragment
+
         android:id="@+id/homeFragment"
         android:name="com.cengiztoru.samplenavigationexample.ui.fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="user"
+            app:argType="com.cengiztoru.samplenavigationexample.data.User" />
+
+    </fragment>
     <fragment
         android:id="@+id/signupFragment"
         android:name="com.cengiztoru.samplenavigationexample.ui.fragments.SignupFragment"
