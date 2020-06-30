@@ -9,12 +9,8 @@
     tools:context=".ui.fragments.LoginFragment">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        style="@style/textViewSyle"
         android:text="LOGIN SCREEN"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.842"
@@ -25,11 +21,8 @@
     <EditText
         android:id="@+id/etMail"
         android:inputType="textEmailAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/editTextStyle"
         android:hint="Your mail adress"
-        android:textColor="@android:color/white"
-        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,41 +30,30 @@
         app:layout_constraintVertical_bias="0.396" />
 
     <EditText
+        style="@style/editTextStyle"
         android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:inputType="textPassword"
         android:hint="Password "
-        android:textColor="@android:color/white"
-        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etMail" />
 
     <Button
-        android:background="@drawable/btn_background"
-        android:textColor="@color/btnTextColor"
+        style="@style/btnStyle"
         android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:text="LOGIN"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <Button
-        android:background="@drawable/btn_background"
-        android:textColor="@color/btnTextColor"
+        style="@style/btnStyle"
         android:id="@+id/btnSignup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="SIGNUP"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"

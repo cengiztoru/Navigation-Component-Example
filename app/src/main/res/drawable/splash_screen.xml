@@ -5,6 +5,6 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/ic_turn_144" />
+            android:src="@drawable/ic_navigation_144" />
     </item>
 </layer-list>
