@@ -28,7 +28,7 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        message.text = "Welcome ${user.name} ${user.surname}"
+        message.text = "Welcome ${user.name} ${user.surname} \n ${user.email}"
     }
 
 }
