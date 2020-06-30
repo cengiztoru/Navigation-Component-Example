@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/root_padding"
+    android:background="@android:color/black"
     tools:context=".ui.fragments.LoginFragment">
 
     <TextView
@@ -26,6 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Your mail adress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:hint="Password "
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"

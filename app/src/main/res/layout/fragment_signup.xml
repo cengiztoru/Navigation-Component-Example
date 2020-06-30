@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/root_padding"
-    tools:context=".ui.fragments.LoginFragment">
+    android:background="@android:color/black"
+    tools:context=".ui.fragments.SignupFragment">
 
     <TextView
         android:layout_width="match_parent"
@@ -25,6 +26,8 @@
         android:id="@+id/etMail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         android:hint="Your mail adress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:hint="Password "
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +54,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:hint="Password Again"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"

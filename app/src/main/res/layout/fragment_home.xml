@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/root_padding"
-    tools:context=".ui.fragments.LoginFragment">
+    android:background="@android:color/black"
+    tools:context=".ui.fragments.HomeFragment">
 
     <TextView
         android:id="@+id/textView"
