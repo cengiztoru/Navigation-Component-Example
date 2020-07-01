@@ -8,7 +8,7 @@
     android:padding="@dimen/root_padding"
     tools:context=".ui.fragments.HomeFragment">
 
-    <include layout="@layout/custom_toolbar" />
+<!--    <include layout="@layout/custom_toolbar" />-->
 
     <TextView
         android:id="@+id/textView"
