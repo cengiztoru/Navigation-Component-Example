@@ -46,10 +46,9 @@ class SplashFragment : Fragment() {
     }
 
     //if result of mode random number to 2 is 0 funtion will return true else return false
-    private fun isUserLogged(): Boolean {
-        //TODO YOU CAN CUSTOMIZE HERE FOR YOU
-        return Random.nextInt() % 2 == 0
-    }
+    //TODO YOU CAN CUSTOMIZE HERE FOR YOU
+    private fun isUserLogged() = Random.nextInt() % 2 == 0
+
 
     //TODO YOU CAN CUSTOMIZE HERE FOR YOU
     private fun getUserData(): User = User("cengiztoru@gmail.com", "Cengiz", "TORU")

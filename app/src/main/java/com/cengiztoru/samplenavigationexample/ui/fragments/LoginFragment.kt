@@ -63,8 +63,6 @@ class LoginFragment : Fragment(), View.OnClickListener {
         }
     }
 
-    private fun getUserData(): User {
-        return User(etMail.text.toString(), "Cengiz", "TORU")
-    }
+    private fun getUserData() = User(etMail.text.toString(), "Cengiz", "TORU")
 
 }

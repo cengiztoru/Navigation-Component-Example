@@ -44,10 +44,14 @@ class SignupFragment : Fragment(), View.OnClickListener {
 
     private fun returnLoginScreen() {
         //You can return login screen by 3 way
-        navController.navigate(R.id.action_signupFragment_to_loginFragment)
-//                navController.popBackStack()
+//        navController.navigate(R.id.action_signupFragment_to_loginFragment)
 
-//                activity!!.onBackPressed()
+//                navController.popBackStack()  //For this project, this code not working. When this code run nothing will happen.
+        //Because before opening this screen we cleared backstack in navigation graph
+        //by popUpToInclusive and popupTO attributes
+
+//                activity!!.onBackPressed()    //For this project, this code not working. When this code run app will close.
+        //Because navigation handle backpressinng action. So if backstack is empty, navigation close the app.
     }
 
 }
